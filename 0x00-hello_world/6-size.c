@@ -10,7 +10,7 @@ int main(void)
 	char c;
 	print("Size of a char: %lu.\n", (unsigned long)sizeof(c));
 	printf("Size of a int: %lu.\n", (unsigned long)sizeof(i));
-	printf("Size of a double: %lu.\n", (unsigned long)sizeof(&i));
+	printf("Size of a double: %lu.\n", (unsigned long)sizeof(d));
 
 	return(0);
 }
